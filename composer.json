@@ -2,7 +2,7 @@
     "name": "barrelstrength/mothership",
     "description": "One plugin to rule them all",
     "version": "1.0.0-beta.1",
-    "type": "yii-module",
+    "type": "craft-plugin",
     "license": "proprietary",
     "authors": [
         {
@@ -29,5 +29,11 @@
         "psr-4": {
             "barrelstrength\\mothership\\": "src/"
         }
+    },
+    "extra": {
+        "name": "Mothership",
+        "handle": "mothership",
+        "developer": "Barrel Strength",
+        "documentationUrl": "https://sprout.barrelstrengthdesign.com/docs/forms"
     }
 }
